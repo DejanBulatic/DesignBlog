@@ -14,6 +14,7 @@ h2,
 
 body {
     font-family: 'Arial-BoldMT';
+    color: #9a9a9a;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -45,3 +46,101 @@ header .navbar-nav li:hover a {
     background: #000;
     color: #fff !important;
 }
+/**HEADER END**/
+/**NEWS SECTION START**/
+.news .news-item {
+    border-bottom: 1px dotted #9A9A9A;
+}
+.news .news-item:last-of-type {
+    border-bottom: none;
+}
+
+.news .news-item figure {
+    overflow: hidden;
+}
+
+.news .news-item figure img {
+    transition: 0.5s linear;
+}
+
+.news .news-item figure:hover img {
+    transform: scale(1.1);
+}
+
+.news-header h2 {
+    line-height: 3rem;
+    letter-spacing: -1px;
+}
+
+.news-header h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.news-header p.small {
+    font-family: 'Arial-ItalicMT';
+    color: #2e2e2e;
+    font-size: 12px !important;
+}
+
+.news-header p.small:before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 13px;
+    border-left: 1px solid #9A9A9A;
+    border-bottom: 1px solid #9A9A9A;
+    position: relative;
+    top: -3px;
+}
+
+.news-header .comments-nr {
+    width: 44px;
+    height: 42px;
+    color: #fff;
+    font-size: 18px;
+    background: url(assets/comments.png) no-repeat center center;
+    line-height: 30px;
+    font-family: 'Arial-BoldMT';
+}
+
+.news-item-description p ~ p {
+    display: none;
+}
+
+.news-item-description p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    max-height: 7rem;
+    overflow: hidden;
+}
+
+.news-item .read-more {
+    display: inline-block;
+    background: #616161;
+    color: #E9E9E9;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 7px 11px;
+    letter-spacing: 1px;
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.news-item .read-more:after {
+    content: '';
+    height: 32px;
+    width: 32px;
+    border: 16px solid transparent;
+    border-left-color: #616161;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.news-item .read-more:hover {
+    margin-left: 3px;
+}
+/**NEWS SECTION END**/
