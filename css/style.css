@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6,
     font-family: 'MuseoSlab-500';
 }
 
+.upper-site-wrap {
+    border-bottom: 1px dotted #000;
+}
+
 /***HEADER***/
 header{
     border-bottom: 1px dotted #000;
@@ -180,3 +184,121 @@ header .navbar-nav li:hover a {
 }
 
 /**BOTTOM NAVIGATION END**/
+
+/**SOCIAL SECTION START**/
+.social-section .fa {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+}
+/**SOCIAL SECTION END**/
+/**ABOUT US**/
+.about-aside h3 {
+    color: #2B2B2B;
+    font-weight: 500;
+}
+.about-aside img {
+    display: inline;
+    border: 3px solid #D6D6D6;
+}
+/**ABOUT US END**/
+/**SEARCH FORM START**/
+.search-form h3 {
+    color: #2B2B2B;
+    font-weight: 500;
+}
+
+.search-form .form-control {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    background: #F7F7F7;
+}
+
+.search-form input::placeholder {
+    color: #B6B6B6;
+}
+/**SEARCH FORM END**/
+/**TOP ARTICLES START**/
+.top-articles h3 {
+    color: #2B2B2B;
+    font-weight: 500;
+}
+.aside-articles a {
+    color: #6B6B6B;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.aside-articles .w-75 a {
+    line-height: 1.5rem;
+    max-height: 3rem;
+    overflow: hidden;
+    display: block;
+}
+.aside-articles img {
+    border: 3px solid #D6D6D6;
+}
+/**TOP ARTICLES END**/
+/**RECENT COMMENTS START**/
+.recent-comments h3 {
+    color: #2B2B2B;
+    font-weight: 500;
+}
+.recent-comments p {
+    font-family: 'ArialMT';
+    font-size: 12px;
+    color: #6B6B6B;
+    border-top: 1px solid #ECECEC;
+}
+
+.recent-comments p:last-of-type {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.recent-comments a {
+    font-family: 'ArialMT';
+    font-size: 12px;
+    text-decoration: none;
+    color: #4286f4;
+}
+
+.recent-comments span.w-75 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.recent-comments span.w-25 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/**RECENT COMMENTS END**/
+/**SINGLE NEWS CONTENT START**/
+.single-news-content h1,
+.single-news-content h2,
+.single-news-content h3,
+.single-news-content h4,
+.single-news-content h5,
+.single-news-content h6 {
+    font-family: 'ArialMT';
+    color: #252525;
+    letter-spacing: 1px;
+}
+
+.single-news-content ul {
+    list-style: none;
+}
+
+.single-news-content ul li:before {
+    content: '';
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    background-image: url('assets/puzzle3.png');
+    background-size: contain;
+    margin-right: 5px;
+}
+
+/**SINGLE NEWS CONTENT END**/
