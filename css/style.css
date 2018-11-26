@@ -370,3 +370,33 @@ header .navbar-nav li:hover a {
     margin-bottom: 3px;
 }
 /**COMMENTS SECTION END**/
+/**LEAVE COMMENT FORM START**/
+.leave-comment {
+    background: #f8f8f8;
+    border: 1px solid rgba(213, 213, 213, 0.54);
+}
+
+.leave-comment .form-control {
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.leave-comment textarea {
+    resize: none;
+}
+
+.leave-comment .btn {
+    border-radius: 0px;
+}
+
+.leave-comment .form-control::placeholder {
+    color: #B5B5B5;
+}
+/**LEAVE COMMENT FORM END**/
