@@ -400,3 +400,30 @@ header .navbar-nav li:hover a {
     color: #B5B5B5;
 }
 /**LEAVE COMMENT FORM END**/
+/**FOOTER START**/
+.footer-nav-heading {
+    font-family: 'Arial-BoldMT';
+    color: #6D6D6D;
+    font-size: 16px;
+}
+
+footer .footer-nav a {
+    text-decoration: none;
+    font-family: 'ArialMT';
+    font-size: 14px;
+    color: #9A9A9A;
+    transition: 0.5s ease;
+}
+
+footer .footer-nav a:hover {
+    padding-left: 4px;
+}
+
+footer .about-me p {
+    font-size: 13px;
+}
+
+footer .about-me h4 {
+    color: #6D6D6D;
+}
+/**FOOTER END**/    
